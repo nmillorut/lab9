@@ -5,9 +5,9 @@ using namespace std;
 void printO(int N,int M)
 {
 	if (N<=0)
-	{cout << "Invalid input";}
+	{cout << "Invalid input\n";}
 	else if (M<=0)
-	{cout << "Invalid input";}
+	{cout << "Invalid input\n";}
 	for (int i=0; N>i; i++)
 	{
 		for(int j=0; M>j; j++){
